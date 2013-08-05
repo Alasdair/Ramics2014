@@ -1,5 +1,5 @@
 theory KAT
-  imports Kleene_Algebra 
+  imports "$AFP/Kleene_Algebra/Kleene_Algebra"
 begin
 
 syntax "_kat" :: "'a \<Rightarrow> 'a" ("`_`")
